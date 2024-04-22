@@ -1,1 +1,1 @@
-##My Django tutortials for IBM Labs
+##My Django tutorials for IBM Labs
