@@ -1,7 +1,7 @@
 Containerizing the app using Docker
 Docker is a powerful tool that makes it easy to run applications regardless of the machine you wrote the code on and the machine you want to run it on. It is widely used in practice as it allows developers to avoid the “But it runs on my laptop!” problem when their code doesn’t work.
 
-You will need to install Docker first from this link if you are working locally.
+You will need to install Docker first from this link(https://docs.docker.com/desktop/) if you are working locally.
 
 This is how it works for (basic) python applications:
 
@@ -58,4 +58,7 @@ docker-c-up
 
 You can launch the application the same way you have previously in this project as well, through Launch Application and specifying port 8000.
 
-Alternatively, you can launch the application directly by clicking on this button.
+Alternatively, you can launch the application directly by clicking on this button
+
+
+Checker this link https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/ and see The code above will be run line by line. The FROM line indicates what base container image we want to build on, and in this case we want to use a python 3 image. You can find more details on how this code works here.
