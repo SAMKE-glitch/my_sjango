@@ -62,3 +62,17 @@ Alternatively, you can launch the application directly by clicking on this butto
 
 
 Checker this link https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/ and see The code above will be run line by line. The FROM line indicates what base container image we want to build on, and in this case we want to use a python 3 image. You can find more details on how this code works here.
+
+
+
+
+Deploying to Code Engine
+If you would like to host your application and have it be available for anyone to use, you can follow these steps in order to deploy it. The deployment will be to IBM Cloud’s Code Engine. IBM Cloud Code Engine is a fully managed, cloud-native service for running containerized workloads on IBM Cloud. It allows developers to deploy and run code in a secure, scalable and serverless environment, without having to worry about the underlying infrastructure.
+
+The following steps in Part 1 allow you to test deploy to a IBM Skills Network Code Engine environment to test if everything is working just fine, which is deleted after a few days. Part 2 shows the steps to deploy for real to your own account.
+
+Part 1: Deploying to Skills Network Code Engine
+Step 1. Create Code Engine Project
+In the left hand navigation pannel, there is an option for the Skills Network Toolbox. Simply open that and that expand the CLOUD section and then click on Code Engine. Finally cick on Create Project
+
+
